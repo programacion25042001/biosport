@@ -1,0 +1,22 @@
+name: biosport_app
+description: Monitoreo en tiempo real de frecuencia cardiaca, temperatura corporal y estado del deportista con ESP32 (BLE).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'   # Flutter 3.27 o superior
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.35.0
+  fl_chart: ^0.69.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
